@@ -18,7 +18,9 @@
 #ifndef _ST_HPC_PPL_COMMON_TYPES_H_
 #define _ST_HPC_PPL_COMMON_TYPES_H_
 
+#ifndef PPLCOMMON_USE_AARCH64
 #include "ppl/common/half.h"
+#endif
 #include <stdint.h>
 
 namespace ppl { namespace common {
